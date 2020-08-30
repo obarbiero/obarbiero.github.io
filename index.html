@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div>
+<div class="image-cropper" style="float:left;margin-top:-2em;margin-left:1em">
+<img src="https://www.bostonfed.org/-/media/profile-images/2020/07/02/15/29/omar-barbiero-formal-portrait.jpg">
+</div>
+<div style="color:grey;text-align:right;margin-top:2em"> Hello and welcome to my website </div>
+
+<div style="color:grey;text-align:right">I am an economist at the Federal Reserve Bank of Boston </div>
+
+<div style="color:grey;text-align:right">I focus on international macroeconomics </div>
+</div>
+<a name="research-list">
+
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
+
+<div class="posts">
+	
+    {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+	  <!-- <a href="your link here" style="float: right;"> <i class="far fa-file-pdf fa-1g" style="color: red !important;"></i></a> -->
+	  {{post.subtitle}}<br>
+	  {{post.journal}}
+      <div class="entry" style="text-align:justify;margin-top: 1em">
+        {{ post.blurb }}
+      </div>
+	 <p>&nbsp;</p> 
+      <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more" style="float: right;">Read More</a> -->
+    </article>
+  {% endfor %}
+</div>

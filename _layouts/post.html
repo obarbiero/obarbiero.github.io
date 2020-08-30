@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <i>{{page.subtitle}}</i>
+  <div class="entry" style="text-align:justify;margin-top: 1em">
+    {{ content }}
+  </div>
+
+  <div class="date">
+    Updated on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+  {% include disqus.html %}
+</article>
