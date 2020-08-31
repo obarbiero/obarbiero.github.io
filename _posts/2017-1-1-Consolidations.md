@@ -2,6 +2,7 @@
 layout: post
 title: The Effects of Fiscal Consolidations
 subtitle: with Alberto Alesina, Carlo Favero, Francesco Giavazzi, Matteo Paradisi
+filename: w23385.pdf
 blurb: ​We extend a narrative dataset of fiscal consolidations, with details on over 3500 measures for 16 OECD countries. Government spending cuts and cuts in transfers are less harmful than tax hikes. Standard New Keynesian models match our results when fiscal shocks are persistent.
 ---
 
