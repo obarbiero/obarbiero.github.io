@@ -166,9 +166,9 @@ img {
   top:0;
   width: 720px;
   background:$white;
-  @include mobile {
-    text-align: center;
-  }
+  //@include mobile {
+  //  text-align: center;
+  //}
 }
 
 .site-avatar {
@@ -197,6 +197,16 @@ img {
     margin: 0 auto;
   }
 }
+
+
+.introsentence {
+	color:grey;
+	text-align:right;
+	@include mobile {
+		font-size: 12px;
+	}
+}
+
 
 .site-name {
   margin: 0;
