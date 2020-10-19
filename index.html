@@ -30,6 +30,18 @@ layout: default
       <div class="entry" style="text-align:justify;margin-top: 1em">
         {{ post.blurb }}
       </div>
+	  <details>
+		<summary align="right"></summary>
+		<p style="text-align:justify"><span style="font-weight:bold;">Abstract</span>: {{post.abstract}}</p>
+		{% if post.youtube != nil %}
+		<p>&nbsp;</p> 
+		<p align="center"><iframe width="560" height="315" src="{{ post.youtube }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+		{% endif %}
+		{% if post.vimeo != nil %}
+		<p>&nbsp;</p> 
+		<p align="center"><iframe src="{{ post.vimeo }}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
+		{% endif %}
+	 </details>
 	 <p>&nbsp;</p> 
       <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more" style="float: right;">Read More</a> -->
     </article>

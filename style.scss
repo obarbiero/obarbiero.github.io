@@ -311,6 +311,27 @@ footer {
   text-align: center;
 }
 
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+
+summary{
+	align:right;
+}
+
+summary:after {
+    font-family: "Font Awesome 5 Free"; 
+	font-weight: 900; 
+	content: "\f055";
+}
+
+details[open] summary:after {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f056";
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
