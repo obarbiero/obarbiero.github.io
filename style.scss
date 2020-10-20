@@ -315,10 +315,15 @@ details > summary::-webkit-details-marker {
   display: none;
 }
 
+details > summary {
+  list-style: none;
+  align-items: right;
+}
 
 summary{
 	align:right;
 }
+
 
 summary:after {
     font-family: "Font Awesome 5 Free"; 
