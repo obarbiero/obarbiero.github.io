@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: The Contribution of Imports to PCE Inflation
 subtitle: with Hillary Stein
 filename: importPCEinflation.pdf
 blurb: We develop a new methodology for tracing out how border price increases pass through into US consumer prices under different markup assumptions. We find full pass-through of tariffs into consumer prices.
