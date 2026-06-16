@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Austerity in 2009-2013
-subtitle: with Alberto Alesina, Carlo Favero, Francesco Giavazzi, Matteo Paradisi
+subtitle: with A. Alesina, C. Favero, F. Giavazzi, M. Paradisi
 journal: 2015 Economic Policy
 filename: w20827.pdf
 blurb: ​The 2009-13 fiscal adjustments based upon cuts in spending were less recessionary than those based upon tax increases. Once taking this fact into account, we don't find sufficient evidence to claim that the 2009-13 austerity measures have been more costly than in the past.
