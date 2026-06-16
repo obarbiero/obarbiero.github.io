@@ -24,14 +24,13 @@ layout: default
 
       <h1><a href="{{ site.baseurl }}/files/{{ post.filename }}">{{ post.title }}</a></h1>
 	  <!-- <a href="your link here" style="float: right;"> <i class="far fa-file-pdf fa-1g" style="color: red !important;"></i></a> -->
-	  <p style="color:grey;margin-top:-0.5em">{{post.subtitle}}<br>
-	  {{post.journal}}</p>
-      <div class="entry" style="text-align:justify;margin-top: 1em">
+	  <p style="color:grey;margin-top:0.2em;font-size:0.9em">{{post.subtitle}} &mdash; <em>{{post.journal}}</em></p>
+      <div class="entry" style="text-align:left;margin-top: 1em">
         {{ post.blurb }}
       </div>
 	  <details>
 		<summary align="right"></summary>
-		<p style="text-align:justify"><span style="font-weight:bold;">Abstract</span>: {{post.abstract}}</p>
+		<p style="text-align:left"><span style="font-weight:bold;">Abstract</span>: {{post.abstract}}</p>
 		{% if post.youtube != nil %}
 		<p>&nbsp;</p> 
 		<p align="center"><iframe width="560" height="315" src="{{ post.youtube }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
