@@ -273,6 +273,15 @@ nav {
 }
 
 .post {
+  // Paper titles: repeated list entries, so keep them closer to body size
+  h1 {
+    font-size: 22px;
+
+    @include mobile {
+      font-size: 19px;
+    }
+  }
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
