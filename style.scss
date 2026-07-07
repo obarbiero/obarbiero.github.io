@@ -47,14 +47,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
-  line-height: 1.2;
+  line-height: 1.1;
   a {
     color: inherit;
   }
-  margin-top: 0;
-  margin-bottom: -0.3em;
-  margin-left: 0;
-  margin-right: 0;
+  // gap between a paper title and its grey subtitle scales with the font size
+  margin: 0 0 0.45em;
 
   @include mobile {
     font-size: 22px;
